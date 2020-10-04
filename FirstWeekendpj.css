@@ -1,0 +1,294 @@
+.containernav1 {
+    height: 100%;
+    width: 100%;
+  /*   border: ; */
+  /*   margin-left:10%; */
+  } 
+  
+  .icon-bar {
+    width: 90%; /* Full-width */
+    background-color: white; /* Dark-grey background */
+    overflow: auto;
+  /*   margin-left:10%; */
+  /*   border: 3px solid blue; */
+    }
+  
+  .icon-bar a {
+    float: right; /* Float links side by side */
+    text-align: right; /* Center-align text */
+    width: 5%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    /*transition: all 0.3s ease;*/ /* Add transition for hover effects */
+    color: grey; /* White text color */
+    font-size: 20px; /* Increased font size */
+  }
+  
+  .icon-bar .search-container {
+    float: right;
+  }
+  
+  .icon-bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border:1px solid grey;
+    border-radius: 15px;
+  }
+  
+  .icon-bar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color:grey;
+  }
+  
+  ul{
+    list-style-type: none;
+  } 
+  
+  .container2{
+    height: 100%;
+    width: 100%;
+  /*   border: 1px solid blue; */
+    display:flex;
+    flex-direction:row;
+  /*   border:1px solid blue */
+    }
+  
+  #algorithms{
+    font-family: serif;
+    color:black;
+  }
+  
+  #fontca{
+    font-family: serif;
+    color:grey;
+  }
+  
+  #fontr{
+    font-family: serif;
+    color:grey;
+  }
+  
+  #font1{
+    font-family: serif;
+    color:blue;
+  }
+  
+  #fontra{
+    font-family: serif;
+    color:grey;
+  }
+  
+  #fonts{
+    font-family: serif;
+    color:grey;
+  }
+  
+  .box0{
+    height: 100px;
+    width: 1050px;
+  /*   border: 1px solid orange;  */
+  /*   margin-right:10px; */
+    }
+  
+  .box1{
+    height: 85px;
+    width:200px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .box2{
+    height: 85px;
+    width:200px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .box3{
+    height: 85px;
+    width:200px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  
+  .topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+  }
+  
+  
+   .topnav a:hover {
+    background-color:white;
+    color: green;
+  } 
+  
+  
+   .topnav .icon { 
+    display: none; 
+  } 
+  
+  .container3{
+    height: 100%;
+    width: 50%;
+  /*   border: 1px solid blue; */
+     display:flex;
+    flex-direction:row;
+    background-color:#f8f9fa;
+    }
+  
+  
+  .box5{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid green; */
+    background-color:#f8f9fa;
+  }
+  
+  .box6{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid red; */
+    text-align: right;
+  }
+  
+  .box6 a{
+    color:grey;
+  }
+  
+  .fontF{
+    font-family: serif;
+  }
+  
+  .fontFF{
+    font-family: serif;
+    color:grey;
+  }
+  
+  
+  .container4{
+    height: 100%;
+    width: 50%;
+  /*   border: 1px solid blue; */
+    display:flex;
+    flex-direction:row;
+    background-color:#f8f9fa;
+    }
+  
+  .box7{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid red; */
+    text-align: right;
+  }
+  
+  .box8{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid red; */
+    text-align: right;
+  }
+  
+  .box9{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid red; */
+    text-align: right;
+  }
+  
+  .box10{
+    height: 100px;
+    width: 100%;
+  /*   border: 1px solid red; */
+    text-align: right;
+  }
+  
+  input[type=button]{
+    background-color: #52b788;
+    color:white;
+    border: solid white;
+  }
+  
+  
+  
+  
+  
+  .sidenav {
+    width: 90px;
+    height: 100%;/* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+  /*   position:fixed; */
+  }
+  
+  .sidenav a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 50px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  
+  .sidenav {
+    background-color: grey; /* Add an active/current color */
+  }
+  
+  
+  ul.sidecontainer{
+  /*   border:1px solid green; */
+    display: block;
+    height: 100%;
+    width: 25%;
+    margin-left: 55%;
+    bottom:75%;
+    margin-top:-50.5%;
+  }
+  
+  
+   ul.sidecontainer li {
+      padding-left: 33px;
+      margin-bottom: 2.5em;
+      list-style: none;
+      background: url('../img/misc/list-bullet-darkgray.png') no-repeat;
+  }
+  
+  
+  .sidenavcontainer{
+  /*   border:5px solid red; */
+    height: 100%;
+    width: 5%;
+  }
+  
+  .mainmaincontainer{
+  /*   border:5px solid blue; */
+    display: block;
+    height: 1000px;
+    width: 90%;
+    margin-left:6.5%;
+    margin-top:-37.5%;
+    background-color:#e9ecef;
+  }
+
+  
